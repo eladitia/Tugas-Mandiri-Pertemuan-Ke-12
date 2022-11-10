@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb" crossorigin="anonymous">
+    <title>Formulir Pendaftaran</title>
+    <style>
+        .container{
+            background-color: aliceblue;
+            padding: 5px 50px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="container w-50">
+        <h2 class="alert alert-primary text-center mt-3">Formulir Pendaftaran Mahasantri PeTIK II Jombang Tahun 2022-2023</h2>
+        <form >
+            <div class="form-group">
+                <label>Nama Lengkap</label>
+                <input type="text" name="" class="form-control" placeholder="Masukkan Nama Lengkap Anda">
+            </div><br>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="" class="form-control" placeholder="Masukkan Email Anda">
+            </div><br>
+
+            <div class="form-group">
+                <label>Nama orang tua/wali</label>
+                <input type="text" name="" class="form-control" placeholder="Masukkan Nama">
+            </div><br>
+
+            <div class="form-group">
+                <label>Alamat</label>
+                <input type="text" name="" class="form-control" placeholder="Masukkan Alamat">
+            </div><br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Tempat Lahir</label>
+                        <input type="text" name="" class="form-control" placeholder="Masukkan Tempat Lahir Anda" id="Tempat Lahir">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Tanggal Lahir</label>
+                        <input type="date" name="" class="form-control">
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="form-gup">
+                <label>Pilih Jurusan</label>
+                <select class="form-control">
+                    <option>1. Pengembangan Perangkat Lunak</option>
+                    <option>2. Digital Marketing</option>
+                    <option>3. Jaringan</option>
+                </select>
+            </div><br>
+
+            <div class="form-grup">
+                <label>Alasan Daftar Di PeTIK II Jombang</label>
+                <textarea class="form-control" row="5"></textarea>
+            </div><br>
+
+            <div class="form-group">
+                <label>Jenis Kelamin</label><br>
+                <div class="form-check-inline">
+                    <input type="radio" class="form-check-input" name="radio1" id="radio2" checked="">
+                    <label>Laki-Laki</label>
+                </div>
+                <div class="form-check-inline">
+                    <input type="radio" class="form-check-input" name="radio1" id="radio2" checked="">
+                    <label>Perempuan</label>
+                </div>
+            </div><br>
+
+            <div class="form-group">
+                <label>Upload Dokumen</label>
+                <input type="file" class="form-control-file" name="">
+                <small>Upload file dengan ukuran maksimal 2 MB</small>
+            </div><br>
+
+            <button type="submit" class="btn btn-primary">SIMPAN</button>
+            <button type="reset" class="btn btn-danger">RESET</button>
+            <br><br><br><br>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
